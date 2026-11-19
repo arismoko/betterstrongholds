@@ -1,0 +1,40 @@
+{
+  "mod_id": "betterstrongholds",
+  "name": "YUNG's Better Strongholds",
+  "version": "1.21.1-NeoForge-5.1.3",
+  "loader": "neoforge",
+  "license": "LGPLv3",
+  "verdict": "partly",
+  "summary": "10 loot tables, 120 worldgen files port; not 41 structure processors written in Java, 1 worldgen file of a type written in Java.",
+  "ports": [
+    "10 loot tables",
+    "120 worldgen files"
+  ],
+  "skipped": [
+    "41 structure processors written in Java",
+    "1 worldgen file of a type written in Java",
+    "10 worldgen features or structure types in code",
+    "1 command",
+    "1 game event it reacts to (LevelEvent)",
+    "2 Mixins (patches to the game's code)"
+  ],
+  "depends": [
+    "yungsapi"
+  ],
+  "namespaces": [
+    "betterstrongholds"
+  ],
+  "code": {
+    "classes": 32,
+    "features": {
+      "worldgen": 10,
+      "command": 1,
+      "events": 1,
+      "mixin": 2
+    },
+    "events": [
+      "LevelEvent"
+    ],
+    "examples": {}
+  }
+}

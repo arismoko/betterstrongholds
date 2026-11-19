@@ -1,0 +1,51 @@
+{
+  "copied": 136,
+  "namespaces": [],
+  "outside": [
+    "data/minecraft/advancement/story/follow_ender_eye.json"
+  ],
+  "unreadable": {},
+  "recipes_upgraded": 0,
+  "loot_tables_upgraded": 10,
+  "advancements_upgraded": 0,
+  "loot_tables_added": 0,
+  "worldgen": 120,
+  "recipes_kept": [],
+  "recipes_unregistered": [],
+  "item_definitions_added": 0,
+  "oracle": false,
+  "blocks": {},
+  "differences": {},
+  "blocks_unknown": {},
+  "items": 0,
+  "equipment": 0,
+  "items_unknown": {},
+  "convention_tags": 0,
+  "worldgen_types": {
+    "mapped": 3,
+    "block_states": 9,
+    "unsupported": {
+      "betterstrongholds:stronghold": 1
+    },
+    "rules_lost": {
+      "yungsapi:yung_jigsaw enhanced_terrain_adaptation": 1,
+      "yungsapi:yung_jigsaw max_y": 1
+    },
+    "processors_dropped": {
+      "betterstrongholds:armorstand_processor": 2,
+      "betterstrongholds:banner_processor": 9,
+      "betterstrongholds:end_portal_frame_processor": 1,
+      "betterstrongholds:itemframe_processor": 2,
+      "betterstrongholds:leg_processor": 8,
+      "betterstrongholds:ore_processor": 2,
+      "betterstrongholds:rare_block_processor": 2,
+      "betterstrongholds:redstone_processor": 8,
+      "betterstrongholds:ruin_processor": 7
+    },
+    "processors_carried": {},
+    "rule_tests_carried": {},
+    "added_to": {},
+    "modifiers_left": {}
+  },
+  "convention_biome_tags": 0
+}

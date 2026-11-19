@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            },
+            {
+              "name": "YUNG's Better Sword",
+              "target": "item_name",
+              "type": "minecraft:set_name"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "type": "minecraft:item",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "max": 1.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
+    }
+  ],
+  "type": "minecraft:chest"
+}

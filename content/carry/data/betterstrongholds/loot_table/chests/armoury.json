@@ -1,0 +1,293 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "minecraft:wooden_sword",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 10.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:wooden_sword",
+          "type": "minecraft:item",
+          "weight": 2
+        },
+        {
+          "name": "minecraft:iron_sword",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:diamond_sword",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:leather_helmet",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:leather_chestplate",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:leather_leggings",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:leather_boots",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:chainmail_helmet",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:chainmail_chestplate",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:chainmail_leggings",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:chainmail_boots",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:iron_helmet",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:iron_chestplate",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_chestplate",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:iron_leggings",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_leggings",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:iron_boots",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:diamond_helmet",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:diamond_chestplate",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:diamond_leggings",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:diamond_boots",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:shield",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:bow",
+          "type": "minecraft:item",
+          "weight": 5
+        },
+        {
+          "modifier": [
+            {
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot",
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:bow",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "modifier": [
+            {
+              "count": {
+                "max": 7.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "type": "minecraft:item",
+          "weight": 7
+        },
+        {
+          "modifier": [
+            {
+              "count": {
+                "max": 7.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:charcoal",
+          "type": "minecraft:item",
+          "weight": 7
+        }
+      ],
+      "rolls": {
+        "max": 3.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
+    }
+  ],
+  "type": "minecraft:chest"
+}

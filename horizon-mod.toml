@@ -1,0 +1,13 @@
+# YUNG's Better Strongholds 5.1.3, carried from the ATM10 1.21.1 jar by
+# horizon-port-pack at the campaign pin 1d63e0a5 (Minecraft 26.3).
+# Licence: LGPL-3.0-only (META-INF/neoforge.mods.toml: license = "LGPLv3");
+# the text travels in data/betterstrongholds/licence/ inside this package and
+# as LICENSE at the port root. Local use only until publishing is approved.
+id = "betterstrongholds"
+name = "YUNG's Better Strongholds"
+version = "0.2.0"
+description = "A complete redesign of Minecraft's strongholds (worldgen data carry)"
+authors = ["YUNGNICKYOUNG", "Acarii"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
