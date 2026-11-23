@@ -24,7 +24,7 @@ structure set's placement — because the mod's placement type is written in Jav
 
 - `data/betterstrongholds/worldgen/structure_set/stronghold.json`: placement
   `betterstrongholds:stronghold` (Java) → `minecraft:random_spread` with
-  `"horizon:ring_sections": {"distance_to_first_ring": 80, "thickness": 96}`,
+  `"sunrise:ring_sections": {"distance_to_first_ring": 80, "thickness": 96}`,
   the game's key for the same odd-ring arithmetic. Salt, spacing and separation
   are unchanged. See `patches/SOURCES.md` in the port tree.
 

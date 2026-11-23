@@ -11,7 +11,7 @@
     "spacing": 85,
     "separation": 50,
     "spread_type": "linear",
-    "horizon:ring_sections": {
+    "sunrise:ring_sections": {
       "distance_to_first_ring": 80,
       "thickness": 96
     }

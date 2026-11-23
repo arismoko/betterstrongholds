@@ -1,0 +1,23 @@
+summary = "Strongholds redesigned into sprawling, varied dungeons with libraries, prisons and an end portal room."
+description = """
+Strongholds redesigned into sprawling, varied dungeons with libraries, prisons and an end portal room.
+
+What it adds:
+
+- A new stronghold: 97 templates of halls, libraries, prisons, armouries and the portal room, assembled by YUNG's jigsaw rules and buried in the terrain.
+- Its placement in rings around the world origin, as the original's; eyes of ender lead to it.
+- Ten chest loot tables.
+- Vanilla strongholds no longer generate, as in the original.
+
+Differences from the original:
+
+- Many of its Java processors (decoration, cobwebs, torches, spawners) are left out.
+- The vanilla "Eye Spy" advancement still counts only vanilla strongholds.
+
+A port of YUNG's Better Strongholds by YUNGNICKYOUNG and Acarii, under the LGPL v3.0 only.
+"""
+categories = ["worldgen", "adventure"]
+
+[[screenshots]]
+path = "page/world.png"
+caption = "TODO"

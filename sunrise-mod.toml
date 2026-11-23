@@ -1,0 +1,10 @@
+# YUNG's Better Strongholds for Sunrise: content only (data/ and assets/), no code.
+id = "betterstrongholds"
+name = "YUNG's Better Strongholds"
+version = "0.3.0"
+description = "Strongholds redesigned into sprawling, varied dungeons with libraries, prisons and an end portal room."
+authors = ["YUNGNICKYOUNG", "Acarii"]
+license = "LGPL-3.0-only"
+credits = "Ported to Minecraft 26.3 by AdLf0208, and to Sunrise by arismoko."
+homepage = "https://github.com/arismoko/betterstrongholds"
+side = "both"
