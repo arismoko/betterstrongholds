@@ -19,5 +19,9 @@ A port of YUNG's Better Strongholds by YUNGNICKYOUNG and Acarii, under the LGPL 
 categories = ["worldgen", "adventure"]
 
 [[screenshots]]
-path = "page/world.png"
-caption = "TODO"
+path = "page/lantern-hall.png"
+caption = "A vaulted hall in a Better Stronghold."
+
+[[screenshots]]
+path = "page/library.png"
+caption = "Bookshelves and a chest in a stronghold library."
