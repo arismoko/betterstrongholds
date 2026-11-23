@@ -1,6 +1,251 @@
 {
   "processors": [
     {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:gray_wall_banner",
+      "picks": [
+        {
+          "below": 0.333333,
+          "state": {
+            "id": "minecraft:magenta_wall_banner"
+          },
+          "nbt": {
+            "id": "minecraft:banner",
+            "patterns": [
+              {
+                "pattern": "minecraft:stripe_small",
+                "color": "white"
+              },
+              {
+                "pattern": "minecraft:stripe_top",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:half_horizontal_mirror",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:border",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:stripe_middle",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:stripe_center",
+                "color": "black"
+              }
+            ]
+          }
+        },
+        {
+          "below": 0.666667,
+          "state": {
+            "id": "minecraft:black_wall_banner"
+          },
+          "nbt": {
+            "id": "minecraft:banner",
+            "patterns": [
+              {
+                "pattern": "minecraft:stripe_bottom",
+                "color": "gray"
+              },
+              {
+                "pattern": "minecraft:stripe_center",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:half_horizontal",
+                "color": "gray"
+              },
+              {
+                "pattern": "minecraft:creeper",
+                "color": "black"
+              },
+              {
+                "pattern": "minecraft:skull",
+                "color": "black"
+              }
+            ]
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:purple_wall_banner"
+        },
+        "nbt": {
+          "id": "minecraft:banner",
+          "patterns": [
+            {
+              "pattern": "minecraft:stripe_small",
+              "color": "magenta"
+            },
+            {
+              "pattern": "minecraft:bricks",
+              "color": "purple"
+            },
+            {
+              "pattern": "minecraft:curly_border",
+              "color": "magenta"
+            },
+            {
+              "pattern": "minecraft:border",
+              "color": "black"
+            }
+          ]
+        }
+      },
+      "keep_properties": true
+    },
+    {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:nether_gold_ore",
+      "picks": [
+        {
+          "below": 0.2,
+          "state": {
+            "id": "minecraft:coal_ore"
+          }
+        },
+        {
+          "below": 0.4,
+          "state": {
+            "id": "minecraft:iron_ore"
+          }
+        },
+        {
+          "below": 0.6,
+          "state": {
+            "id": "minecraft:gold_ore"
+          }
+        },
+        {
+          "below": 0.75,
+          "state": {
+            "id": "minecraft:lapis_ore"
+          }
+        },
+        {
+          "below": 0.9,
+          "state": {
+            "id": "minecraft:redstone_ore"
+          }
+        },
+        {
+          "below": 0.95,
+          "state": {
+            "id": "minecraft:emerald_ore"
+          }
+        },
+        {
+          "below": 1.0,
+          "state": {
+            "id": "minecraft:diamond_ore"
+          }
+        }
+      ],
+      "default": {
+        "state": {
+          "id": "minecraft:coal_ore"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:yellow_stained_glass"
+      },
+      "target_block_output": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:mossy_stone_bricks"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "id": "minecraft:cracked_stone_bricks"
+            },
+            "probability": 0.2
+          },
+          {
+            "blockState": {
+              "id": "minecraft:infested_stone_bricks"
+            },
+            "probability": 0.05
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:stone_bricks"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:mossy_stone_bricks"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "id": "minecraft:cracked_stone_bricks"
+            },
+            "probability": 0.2
+          },
+          {
+            "blockState": {
+              "id": "minecraft:infested_stone_bricks"
+            },
+            "probability": 0.05
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:stone_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:orange_stained_glass"
+      },
+      "target_block_output": {
+        "entries": [],
+        "defaultBlockState": {
+          "id": "minecraft:cyan_terracotta"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:mossy_stone_bricks"
+            },
+            "probability": 0.3
+          },
+          {
+            "blockState": {
+              "id": "minecraft:cracked_stone_bricks"
+            },
+            "probability": 0.2
+          },
+          {
+            "blockState": {
+              "id": "minecraft:infested_stone_bricks"
+            },
+            "probability": 0.05
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:stone_bricks"
+        }
+      }
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
         {
