@@ -7,7 +7,7 @@ A port of [YUNG's Better Strongholds](https://github.com/YUNG-GANG/YUNGs-Better-
 ## What it adds
 
 - A new stronghold: 97 templates of halls, libraries, prisons, armouries and the portal room, assembled by YUNG's jigsaw rules and buried in the terrain.
-- Its placement in rings around the world origin, as the original's; eyes of ender lead to it.
+- Its placement in rings around the world origin, as the original's.
 - Ten chest loot tables.
 - The original's dressing: banners in three designs, ore veins of coal to diamond in the walls, rare iron, gold, quartz and diamond blocks, stone brick legs down to the ground, and portal frames that hold an eye one time in ten.
 - Vanilla strongholds no longer generate, as in the original.
@@ -15,6 +15,7 @@ A port of [YUNG's Better Strongholds](https://github.com/YUNG-GANG/YUNGs-Better-
 ## Differences from the original
 
 - Armour stands and item frames are not dressed, the legs' stair brackets are not placed, and wire is not propped up on loose blocks: those processors are Java code that reaches entities or the world around.
+- Eyes of ender still fly towards the vanilla stronghold positions: the game's eye does not read the `eye_of_ender_located` tag, which this mod adds the stronghold to.
 - The vanilla "Eye Spy" advancement still counts only vanilla strongholds.
 
 ## Building
